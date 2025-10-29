@@ -1,6 +1,6 @@
 // Spotify client configuration for the app (PKCE flow).
 // Client secret must never be stored in the client app.
-export const SPOTIFY_CLIENT_ID = 'b9b80d5c84c245cebf67f2857caf0415';
+export const SPOTIFY_CLIENT_ID = '<YOUR_SPOTIFY_CLIENT_ID>';
 
 // For Expo managed workflow we build the redirect URI dynamically.
 // Leave REDIRECT_URI null to let the auth hook call AuthSession.makeRedirectUri() with useProxy: true.
